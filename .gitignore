@@ -1,0 +1,27 @@
+# Thesis PDF
+終稿_內文.pdf
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Fonts (copyrighted)
+fonts/
+
+# Model weights (too large for GitHub)
+weights/
+
+# Files marked as not for publishing
+(不放)*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
+
+# Large preprocessed data files
+*.joblib
