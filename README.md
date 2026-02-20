@@ -105,15 +105,11 @@ Each directory corresponds to a specific experiment in the thesis (Chapter 4):
 
 ## Model Architecture
 
-```
-                    ┌─────────────┐
-  SCIT Features ──> │    LSTM     │──┐
-                    └─────────────┘  │   ┌──────────────┐    ┌────────────┐
-                                     ├──>│ Fusion Layer │──> │ Multi-task │──> (Δlat, Δlon)
-                    ┌─────────────┐  │   │  (Attention) │    │   Output   │
-  Radar Echo ────>  │  ConvLSTM   │──┘   └──────────────┘    └────────────┘
-                    └─────────────┘
-```
+![Model Architecture](assets/photos/碩士論文模型輸入輸出.jpg)
+
+### Tracking Result — Mei-Yu Front Case
+
+![Tracking Comparison](assets/photos/碩士論文梅雨鋒面個案.jpg)
 
 ## Key References
 
